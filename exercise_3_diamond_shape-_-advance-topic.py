@@ -12,4 +12,4 @@ def print_diamond():
             print(' ' * (n // 2 - i) + '*' * (2 * i + 1))
 
 
-
+print_diamond()
