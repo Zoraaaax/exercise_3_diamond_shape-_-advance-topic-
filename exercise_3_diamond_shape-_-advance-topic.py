@@ -4,4 +4,5 @@ def print_diamond():
     if n % 2 == 0:
         print('Please provide an odd integer.')
 
-    
+    else:
+        
