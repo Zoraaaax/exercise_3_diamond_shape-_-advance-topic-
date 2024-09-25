@@ -5,4 +5,5 @@ def print_diamond():
         print('Please provide an odd integer.')
 
     else:
-        
+        for i in range(n // 2 + 1):
+            
