@@ -2,7 +2,7 @@ def print_diamond():
     while True:
         n = int(input('Enter odd integer: '))
 
-    if n % 2 == 0:
+        if n % 2 == 0:
         print('Please provide an odd integer.')
 
     else:
