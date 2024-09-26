@@ -5,7 +5,9 @@ def print_diamond():
         if n % 2 == 0:
             print('Please provide an odd integer.')
 
-    else:
+        else:
+            break
+
         for i in range(n // 2 + 1):
             print(' ' * (n // 2 - i) + '*' * (2 * i + 1))
 
